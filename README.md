@@ -3,7 +3,7 @@
 📬 System Design Concepts: The Mail Distribution Center Analogy
 ### 1. Scaling the Core Resource (Vertical Scaling)
 **<img src="https://github.com/Sampritakoley/SystemDesign_Samps/blob/e5efb5fc4eac143c85bc18b86732dbf0f33d0d8b/image1.png" alt="Image illustrating an upgraded sorting machine" width="300px" height="300px">**
- ####Here, the old sorting machine has been significantly upgraded with modern tech, lights, and screens, symbolizing the investment in optimizing a single resource to handle more mail—Vertical Scaling. The same single mailman is operating it, but more efficiently.
+ >Here, the old sorting machine has been significantly upgraded with modern tech, lights, and screens, symbolizing the investment in optimizing a single resource to handle more mail—Vertical Scaling. The same single mailman is operating it, but more efficiently.
 ### 2. Ensuring Resilience and Redundancy (Single Point of Failure / Master-Slave)
 **<img src="https://github.com/Sampritakoley/SystemDesign_Samps/blob/e5efb5fc4eac143c85bc18b86732dbf0f33d0d8b/image2.png" alt="Image illustrating an upgraded sorting machine" width="300px" height="300px">**
   > This image shows one sorting machine sparking and failing, while an identical, active backup machine stands ready, being monitored by another employee. This illustrates the importance of Redundancy to avoid a Single Point of Failure.
